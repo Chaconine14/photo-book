@@ -1,0 +1,7 @@
+@use "../../foundation/variables";
+
+
+.p-link-box {
+    display: inline-block;
+    border-bottom: 1px solid variables.$color-def;
+}

@@ -1,0 +1,10 @@
+@use "../foundation/variables";
+
+.l-footer {
+    padding: 5.5rem 0 1.5rem 4.0rem;
+    background-color: variables.$color-lblue;
+
+    @include variables.media-pc {
+        padding-left: 34rem;
+    }
+}

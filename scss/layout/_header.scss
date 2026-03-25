@@ -1,0 +1,23 @@
+@use "../foundation/variables";
+
+.l-header {
+    padding: 6.0rem 1.0rem;
+    background-color: variables.$color-lblue;
+
+    @include variables.media-pc {
+        padding: 6.0rem 14.0rem;
+    }
+
+}
+
+.l-header__logo {
+    img {
+        width: 160px;
+    }
+}
+
+.l-header__mv {
+    img {
+        width: 100%;
+    }
+}

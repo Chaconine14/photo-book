@@ -1,0 +1,45 @@
+@use "../foundation/variables";
+
+.l-detail {
+    padding: 6.0rem 4.0rem;
+    background-color: variables.$color-lblue;
+
+    @include variables.media-pc {
+        padding: 0 34rem;
+    }
+}
+
+.l-detail__fig {
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        padding: 2.5rem 0 2.0rem 0;
+    }
+
+    dl {
+        padding: 1.6rem 0;
+    }
+
+    p {
+        padding: 1.6rem 0;
+    }
+
+    a {
+        color: variables.$color-def;
+        text-decoration: none;
+    }
+
+    @include variables.media-pc {
+        display: flex;
+        gap: 6rem;
+
+        img {
+            width: 50%;
+            object-fit: contain;
+        }
+
+    }
+
+}

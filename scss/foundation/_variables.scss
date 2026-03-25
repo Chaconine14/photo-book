@@ -1,0 +1,65 @@
+//***************************************
+//カラーパレット
+//***************************************
+
+$color-lblue: #F4F9FF;
+$color-def: #333333;
+$color-white: #FFF;
+$color-gray: #DEDEDE;
+
+// $color-blue: #41A4BE;
+// $color-navy: #131E3E;
+
+
+//***************************************
+//フォント設定
+//***************************************
+
+
+// @mixin font-jp($size, $weight, $lh) {
+//     font-family: "Noto Sans JP", sans-serif;
+//     font-optical-sizing: auto;
+//     font-style: normal;
+//     font-weight: $weight;
+//     font-size: $size;
+//     line-height: $lh;
+//     color: $color-gray;
+// }
+
+// @mixin font-en($size, $weight, $lh) {
+//     font-family: "Poppins", sans-serif;
+//     font-style: normal;
+//     font-weight: $weight;
+//     font-size: $size;
+//     line-height: $lh;
+//     color: $color-gray;
+// }
+
+.fs-18 {
+    font-size: 1.8rem;
+}
+
+.fs-14 {
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+//***************************************
+//レスポンシブ　メディアクエリ設定
+//***************************************
+
+// @mixin media-tb {
+//     @media (min-width: 768px) {
+//         @content;
+//     }
+// }
+
+@mixin media-pc {
+    @media (min-width: 1025px) {
+        @content;
+    }
+}

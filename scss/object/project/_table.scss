@@ -1,0 +1,13 @@
+@use "../../foundation/variables";
+
+.p-table {
+    width: 100%;
+    border-top: 1px solid variables.$color-gray;
+    border-bottom: 1px solid variables.$color-gray;
+    padding: 1.6rem 0;
+
+    th {
+        text-align: start;
+        font-weight: normal;
+    }
+}

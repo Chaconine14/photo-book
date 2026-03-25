@@ -1,0 +1,20 @@
+@use "../foundation/variables";
+
+.l-index {
+    background-color: variables.$color-white;
+    padding: 30px 40px;
+
+    @include variables.media-pc {
+        padding: 3.0rem 20.0rem;
+        margin: 6.0rem 14.0rem;
+    }
+
+    ol {
+        padding-left: 1.5em;
+
+        li {
+            margin-bottom: 2.0rem;
+        }
+    }
+
+}
